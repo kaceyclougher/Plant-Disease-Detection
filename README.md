@@ -10,11 +10,11 @@ Within this repository, you will find a comprehensive analysis that classifies p
 ![pexels-tim-mossholder-974314](https://github.com/kaceyclougher/Plant-Disease-Detection/assets/137820049/995f0847-2437-4132-9f85-b0de6158b0eb)
 
 ## Repository Structure
-*Data Split & Preprocess Notebook
-*Final Model Notebook
-*README.md: High-level README for reviewers of this project
-*Streamlit App
-*Technical Presentation
+* Data Split & Preprocess Notebook
+* Final Model Notebook
+* README.md: High-level README for reviewers of this project
+* Streamlit App
+* Technical Presentation
 
 ## Approach
 Convolutional Neural Network (CNN) methodologies were employed to create an AI approach for detecting diseases in plants through leaf images. The neural network model or architecture was formulated using the Keras API and implemented using Python in conjunction with TensorFlow.
@@ -25,12 +25,12 @@ Cornell University offers a collection of 50,000 meticulously curated images dep
 The ImageDataGenerator was utilized to enhance our dataset by introducing various data transformations, including scaling, rotation, flipping, zooming, and shifting. Furthermore, a rescale factor of 1.0/255 was applied to normalize the data, and all images were resized to dimensions of 256x256. These transformations produced altered versions of the original images, effectively expanding our training data. Given the imbalance in our dataset, data augmentation proved beneficial for our moderately sized collection of 55,000 images.
 
 ## Key Tools
-*Python
-*Google Colaboratory
-*TensorFlow
-*Keras
-*Matplotlib
-*Numpy
+* Python
+* Google Colaboratory
+* TensorFlow
+* Keras
+* Matplotlib
+* Numpy
 
 ## Modeling
 
