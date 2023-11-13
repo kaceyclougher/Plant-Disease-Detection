@@ -1,4 +1,4 @@
-# Plant Disease Detection using Deep Learningg
+# Plant Disease Detection using Deep Learning
 ### Author: Kacey Clougher
 
 The advent of agriculture is often regarded as the pivotal moment in the establishment of human civilization. Agriculture is generally believed to have begun around 10,000 to 12,000 years ago during the Neolithic Revolution. This period marked a significant transition from hunter-gatherer lifestyles to settled agricultural communities, leading to the cultivation of plants and the domestication of animals. Despite the considerable progress made over the millennia (insert actual number of years since civilization began), enabling us to sustain a global population numbering in the billions, the foremost challenge confronting crop productivity remains the prevalence of plant diseases.
