@@ -33,10 +33,16 @@ The ImageDataGenerator was utilized to enhance our dataset by introducing variou
 * Numpy
 
 ## Modeling
+A convolutional neural network (CNN) model for image classification using the Keras library. The model architecture consists of three sets of convolutional layers, each followed by max-pooling layers to downsample the input. After flattening the output, dropout layers are employed for regularization to prevent overfitting. The fully connected layers include two dense layers with rectified linear unit (ReLU) activation functions and dropout, promoting feature learning and preventing excessive reliance on specific neurons. The final layer, with a softmax activation function, outputs probabilities for two classes (assuming a binary classification task). The model is compiled using the Adam optimizer with a specified learning rate, categorical crossentropy as the loss function, and accuracy as the evaluation metric.
+![plant_binary_model (1)](https://github.com/kaceyclougher/Plant-Disease-Detection/assets/137820049/a6fbe371-57c8-4a18-b689-85c711b7e6c6)
 
+## Use Cases (Examples)
+1. **Precision Disease Management**: Agricultural professionals and researchers aim to implement targeted disease management strategies.
 
+2. **Educational Resource for Farmers**: Farmers seek knowledge about diseases affecting their crops to enhance their understanding and decision-making.
 
-## Reproducing the Experiment
+3. **Crop Disease Monitoring Network**: Governments or agricultural organizations want to establish a comprehensive crop disease monitoring system.
 
+4. **Insurance Risk Assessment**: Crop insurance providers seek a more nuanced understanding of the types of diseases impacting insured crops.
 
 ## Presentation and Resources
