@@ -33,7 +33,8 @@ The ImageDataGenerator was utilized to enhance our dataset by introducing variou
 * Numpy
 
 ## Modeling
-A convolutional neural network (CNN) model for image classification using the Keras library. The model architecture consists of three sets of convolutional layers, each followed by max-pooling layers to downsample the input. After flattening the output, dropout layers are employed for regularization to prevent overfitting. The fully connected layers include two dense layers with rectified linear unit (ReLU) activation functions and dropout, promoting feature learning and preventing excessive reliance on specific neurons. The final layer, with a softmax activation function, outputs probabilities for two classes (assuming a binary classification task). The model is compiled using the Adam optimizer with a specified learning rate, categorical crossentropy as the loss function, and accuracy as the evaluation metric.
+A convolutional neural network (CNN) model for image classification using the Keras library. The model architecture consists of three sets of convolutional layers, each followed by max-pooling layers to downsample the input. After flattening the output, dropout layers are employed for regularization to prevent overfitting. The fully connected layers include two dense layers with rectified linear unit (ReLU) activation functions and dropout, promoting feature learning and preventing excessive reliance on specific neurons. The final layer, with a softmax activation function, outputs probabilities for two classes (assuming a binary classification task). The model is compiled using the Adam optimizer with a specified learning rate, categorical cross-entropy as the loss function, and accuracy as the evaluation metric.
+
 ![plant_binary_model (1)](https://github.com/kaceyclougher/Plant-Disease-Detection/assets/137820049/a6fbe371-57c8-4a18-b689-85c711b7e6c6)
 
 ## Use Cases (Examples)
@@ -46,3 +47,5 @@ A convolutional neural network (CNN) model for image classification using the Ke
 4. **Insurance Risk Assessment**: Crop insurance providers seek a more nuanced understanding of the types of diseases impacting insured crops.
 
 ## Presentation and Resources
+* Non-technical Presentation: [Plant Disease Detection](https://github.com/kaceyclougher/Plant-Disease-Detection/blob/main/Plant_Disease_Detection.pdf)
+* Original Dataset provided by Cornell University: [An open access repository of images on plant health to enable the development of mobile disease diagnostics](https://arxiv.org/abs/1511.08060)
